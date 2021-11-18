@@ -1,10 +1,24 @@
 [
   {
-    "Nombre": "Santuario de Fauna y Flora los Flamencos",
-    "Información general": "Declarado en 1992 Patrimonio Nacional y Cultural de Colombia, el santuario natural es un territorio de ciénagas, lagunas y bosque seco que custodia un delicado ecosistema compuesto de multiplicidad de aves, peces, crustáceos y plantas.  Este pequeño terreno de lagunas costeras regadas por arroyos que es una importante zona de abastecimiento para las aves que le dan su nombre: los flamencos",
-    "Ubicación": "Departamento de la Guajira, municipio de Uribia en la Región Caribe colombiana al norte del país, jurisdicción del municipio de Riohacha. El santuario se localiza aproximadamente a 11° 24' Norte y a 73° 7' Oeste",
-    "Temperatura": "Clima cálido de 27 C. Meses secos: diciembre-abril, julio-agosto; meses lluviosos: mayo y octubre",
-    "Otros datos relevantes": "El Santuario tiene cuatro ciénagas costeras que cubren 7.682 hectáreas, las cuales conforman una comunidad biológica compuesta principalmente de algas, moluscos, crustáceos y peces. Durante la época de lluvias suben los niveles de las aguas, las ciénagas se comunican con el mar y los camarones peinados migran masivamente para su reproducción. En el Santuario encontramos crustáceos como la jaiba y la Artemia salina, así como una gran variedad de aguas acuáticas residentes y migratorias.  El atractivo fundamental son los Flamencos y sus espectaculares nidos construidos en barro, que alcanzan alturas hasta de 60 cm.; el apareamiento ocurre en Marzo y el empollamiento, según los pescadores de la región, en abril y mayo.",
-    "Enlaces de interés": "https://www.parquesnacionales.gov.co/portal/es/ecoturismo/parques/region-caribe/santuario-de-fauna-y-flora-los-flamencos/ - http://www.colparques.net/FLAMENCOS"
+    "nombre": "Santuario de Fauna y Flora los Flamencos",
+    "info_general": "Declarado en 1992 Patrimonio Nacional y Cultural de Colombia, el santuario natural es un territorio de ciénagas, lagunas y bosque seco que custodia un delicado ecosistema compuesto de multiplicidad de aves, peces, crustáceos y plantas.  Este pequeño terreno de lagunas costeras regadas por arroyos que es una importante zona de abastecimiento para las aves que le dan su nombre: los flamencos",
+    "ubicacion": "Departamento de la Guajira, municipio de Uribia en la Región Caribe colombiana al norte del país, jurisdicción del municipio de Riohacha. El santuario se localiza aproximadamente a 11° 24' Norte y a 73° 7' Oeste",
+    "temp": "Clima cálido de 27 C. Meses secos: diciembre-abril, julio-agosto; meses lluviosos: mayo y octubre",
+    "datos_relevantes": "El Santuario tiene cuatro ciénagas costeras que cubren 7.682 hectáreas, las cuales conforman una comunidad biológica compuesta principalmente de algas, moluscos, crustáceos y peces. Durante la época de lluvias suben los niveles de las aguas, las ciénagas se comunican con el mar y los camarones peinados migran masivamente para su reproducción. En el Santuario encontramos crustáceos como la jaiba y la Artemia salina, así como una gran variedad de aguas acuáticas residentes y migratorias.  El atractivo fundamental son los Flamencos y sus espectaculares nidos construidos en barro, que alcanzan alturas hasta de 60 cm.; el apareamiento ocurre en Marzo y el empollamiento, según los pescadores de la región, en abril y mayo.",
+    "enlaces": [
+      "https://www.parquesnacionales.gov.co/portal/es/ecoturismo/parques/region-caribe/santuario-de-fauna-y-flora-los-flamencos/",
+      "http://www.colparques.net/FLAMENCOS"
+    ]
+  },
+  {
+    "nombre": "Parque Nacional Natural Macuira",
+    "info_general": "Ecosistema con presencia de montañas y bosques en medio de la zona desértica que predomina en la región, destacan el cerro palúa (860 msnm) y el cerro Jibome (753 msnm)",
+    "ubicacion": "Departamento de la Guajira, municipio de Uribia en la Región Caribe colombiana al norte del país",
+    "temp": "Clima cálido de 27 C",
+    "datos_relevantes": "la característica más llamativa del Parque es la presencia del bosque enano nublado perennifolio, de apariencia muy similar a los bosques andinos situados cerca de la línea de páramo (alturas superiores a los 2700 msnm), pero ubicado a solo 550 msnm. A escasos cinco kilómetros de un área semidesértica, se encuentra este bosque que presenta una alta humedad y una vegetación exuberante con abundancia de epífitas. También es relevante la presencia en el Parque de miembros de la etnia Wayú. Posee nacimientos de agua y es hábitat de micos, tigrillos, el gato pardo, venados, guacharacas, mirlas y azulejos entre otras especies.",
+    "enlaces": [
+      "https://youtu.be/6A8z9HkZDdo",
+      "https://www.parquesnacionales.gov.co/portal/es/ecoturismo/parques/region-caribe/parque-nacional-natural-macuira/"
+    ]
   }
 ]
