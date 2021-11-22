@@ -3,6 +3,8 @@ package com.developx.poi
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.developx.poi.models.Places
+import com.google.gson.Gson
 import org.json.JSONException
 import java.io.IOException
 import java.nio.charset.Charset
@@ -16,8 +18,11 @@ class POIListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_poi_list)
 
         try {
-            val jsonString = getJSONFromAssets()!!                                                  //  Obtiene String JSON del archivo en el directorio assets
+            val jsonString = getJSONFromAssets()!!                             //  Obtiene String JSON del archivo en el directorio assets
+            val places = Gson().fromJson( jsonString, Places::class.java )     //  Obtiene Array de usuarios
+
             Log.d( tag, jsonString )
+            Log.d( tag, places.toString() )
 
         } catch ( e: JSONException) {
             //exception

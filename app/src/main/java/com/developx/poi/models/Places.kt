@@ -2,7 +2,7 @@ package com.developx.poi.models
 
 /** Data Clases: Data Model */
 data class Places (
-    val list: ArrayList<Place>
+    val places: ArrayList<Place>
 )
 
 data class Place(
@@ -12,15 +12,10 @@ data class Place(
     val description: String,
     val location: String,
     val temperature: Double,
-    val links: Links,
     val coordinates: Coordinates,
-)
-
-data class Links (
-    val links: ArrayList<String>
 )
 
 data class Coordinates (
     val lat: Double,
-    val long: Double
+    val lng: Double
 )
