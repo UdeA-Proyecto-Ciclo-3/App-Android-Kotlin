@@ -3,6 +3,9 @@ package com.developx.poi
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.developx.poi.adapters.PlaceAdapter
 import com.developx.poi.models.Places
 import com.google.gson.Gson
 import org.json.JSONException
@@ -18,13 +21,19 @@ class POIListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_poi_list)
 
         try {
-            val jsonString = getJSONFromAssets()!!                             //  Obtiene String JSON del archivo en el directorio assets
-            val places = Gson().fromJson( jsonString, Places::class.java )     //  Obtiene Array de usuarios
+            val jsonString = getJSONFromAssets()!!                              //  Obtiene String JSON del archivo en el directorio assets
+            val dataObj = Gson().fromJson( jsonString, Places::class.java )     //  Obtiene Array de usuarios
 
             Log.d( tag, jsonString )
-            Log.d( tag, places.toString() )
+            Log.d( tag, dataObj.toString() )
 
-        } catch ( e: JSONException) {
+            val rvPOIList: RecyclerView = findViewById( R.id.rv_poi_list )       //  Obtiene el View del Activity
+            rvPOIList.layoutManager = LinearLayoutManager( this )          //  Configura el LayoutManager que utilizará este RecyclerView, pasandole el contexto.
+
+            val itemAdapter = PlaceAdapter( this, dataObj.places )        // Inicializa el Adapter pasa el contexto y la lista con la data
+            rvPOIList.adapter = itemAdapter                                     // Establece en la vista de reciclaje para inflar los elementos.
+
+        } catch ( e: JSONException ) {
             //exception
             e.printStackTrace()
         }
