@@ -1,0 +1,244 @@
+<mxfile host="65bd71144e">
+    <diagram id="5Bd73s2oK_V1AwpgzL9f" name="Page-1">
+        <mxGraphModel dx="1166" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9" value="" style="dashed=0;shape=rect;fillColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="358" height="642" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="12:30" style="dashed=0;shape=rect;align=right;fillColor=#00796B;strokeColor=none;fontColor=#FFFFFF;spacingRight=4;spacingTop=1;fontStyle=0;fontSize=13;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="24" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="dashed=0;shape=mxgraph.gmdl.top_bar;fillColor=#2D3986;strokeColor=none;" vertex="1" parent="10">
+                    <mxGeometry x="1" y="0.5" width="46" height="14" relative="1" as="geometry">
+                        <mxPoint x="-92" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="La Guajira" style="dashed=0;shape=rect;strokeColor=none;fillColor=#009688;resizeWidth=1;fontSize=20;fontColor=#FFFFFF;spacingTop=-3;verticalAlign=middle;align=left;spacingLeft=72;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="57" relative="1" as="geometry">
+                        <mxPoint y="24" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="dashed=0;shape=mxgraph.gmdl.preferences;strokeColor=none;fillColor=#00423B;" vertex="1" parent="12">
+                    <mxGeometry y="0.5" width="24" height="16" relative="1" as="geometry">
+                        <mxPoint x="16" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="dashed=0;shape=mxgraph.gmdl.refresh;strokeColor=#00423B;fillColor=#00423B;strokeWidth=2;" vertex="1" parent="12">
+                    <mxGeometry x="1" y="0.5" width="16" height="16" relative="1" as="geometry">
+                        <mxPoint x="-65" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="dashed=0;shape=mxgraph.gmdl.settings;strokeColor=none;fillColor=#00423B;" vertex="1" parent="12">
+                    <mxGeometry x="1" y="0.5" width="5" height="16" relative="1" as="geometry">
+                        <mxPoint x="-24" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="shape=rect;fillColor=#ffffff;strokeColor=#eeeeee;shadow=0;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="103" relative="1" as="geometry">
+                        <mxPoint y="81" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Parque Nacional Natural Macuira" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="16">
+                    <mxGeometry width="244" height="60" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Ecosistema con presencia de..." style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="16">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="48" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="27 C" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=12;fontColor=#999999;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="16">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="72" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="dashed=0;shape=mxgraph.gmdl.marginRect;rectMargin=12;rectMarginLeft=-12;fillColor=#BDBDBD;strokeColor=none;" vertex="1" parent="16">
+                    <mxGeometry x="244" width="112" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="shape=rect;fillColor=#ffffff;strokeColor=#eeeeee;shadow=0;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="103" relative="1" as="geometry">
+                        <mxPoint y="184" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Santuario de Fauna y Flora los Flamencos" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="21">
+                    <mxGeometry width="244" height="60" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Declarado en 1992 Patrimonio..." style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="21">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="48" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="27 C" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=12;fontColor=#999999;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="21">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="72" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="dashed=0;shape=mxgraph.gmdl.marginRect;rectMargin=12;rectMarginLeft=-12;fillColor=#BDBDBD;strokeColor=none;" vertex="1" parent="21">
+                    <mxGeometry x="244" width="112" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="shape=rect;fillColor=#ffffff;strokeColor=#eeeeee;shadow=0;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="103" relative="1" as="geometry">
+                        <mxPoint y="287" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Playa del Pilón de Azúcar" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="26">
+                    <mxGeometry width="244" height="60" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="El lugar más visitado de la península de la Guajira..." style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="26">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="27 C" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=12;fontColor=#999999;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="26">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="72" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="dashed=0;shape=mxgraph.gmdl.marginRect;rectMargin=12;rectMarginLeft=-12;fillColor=#BDBDBD;strokeColor=none;" vertex="1" parent="26">
+                    <mxGeometry x="244" width="112" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="shape=rect;fillColor=#ffffff;strokeColor=#eeeeee;shadow=0;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="103" relative="1" as="geometry">
+                        <mxPoint y="390" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Cabo de la Vela" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="31">
+                    <mxGeometry width="244" height="60" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Es un corregimiento pesquero con..." style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="31">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="27 C" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=12;fontColor=#999999;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="31">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="72" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="dashed=0;shape=mxgraph.gmdl.marginRect;rectMargin=12;rectMarginLeft=-12;fillColor=#BDBDBD;strokeColor=none;" vertex="1" parent="31">
+                    <mxGeometry x="244" width="112" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="shape=rect;fillColor=#ffffff;strokeColor=#eeeeee;shadow=0;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry width="358" height="101" relative="1" as="geometry">
+                        <mxPoint y="493" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Punta Gallinas" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="36">
+                    <mxGeometry width="244" height="60" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Las dunas, los manglares y sus..." style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="36">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="27 C" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=12;fontColor=#999999;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="36">
+                    <mxGeometry width="244" height="20" relative="1" as="geometry">
+                        <mxPoint y="72" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="" style="dashed=0;shape=mxgraph.gmdl.marginRect;rectMargin=12;rectMarginLeft=-12;fillColor=#BDBDBD;strokeColor=none;" vertex="1" parent="36">
+                    <mxGeometry x="244" width="112" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="dashed=0;shape=rect;strokeColor=none;fillColor=#000000;resizeWidth=1;" vertex="1" parent="9">
+                    <mxGeometry y="1" width="358" height="48" relative="1" as="geometry">
+                        <mxPoint y="-48" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="" style="dashed=0;shape=mxgraph.gmdl.back;strokeColor=#ffffff;fillColor=#000000;strokeWidth=2;" vertex="1" parent="41">
+                    <mxGeometry x="0.25" y="0.5" width="14" height="14" relative="1" as="geometry">
+                        <mxPoint x="-7" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="shape=ellipse;strokeColor=#ffffff;fillColor=#000000;strokeWidth=2;" vertex="1" parent="41">
+                    <mxGeometry x="0.5" y="0.5" width="14" height="14" relative="1" as="geometry">
+                        <mxPoint x="-7" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="shape=rect;strokeColor=#ffffff;fillColor=#000000;strokeWidth=2;" vertex="1" parent="41">
+                    <mxGeometry x="0.75" y="0.5" width="14" height="14" relative="1" as="geometry">
+                        <mxPoint x="-7" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" value="" style="dashed=0;shape=rect;fillColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="120" width="360" height="642" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="12:30" style="dashed=0;shape=rect;align=right;fillColor=#00796B;strokeColor=none;fontColor=#FFFFFF;spacingRight=4;spacingTop=1;fontStyle=0;fontSize=13;resizeWidth=1;" vertex="1" parent="92">
+                    <mxGeometry width="358" height="24" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="dashed=0;shape=mxgraph.gmdl.top_bar;fillColor=#2D3986;strokeColor=none;" vertex="1" parent="93">
+                    <mxGeometry x="1" y="0.5" width="46" height="14" relative="1" as="geometry">
+                        <mxPoint x="-92" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="Parque Nacional ..." style="dashed=0;shape=rect;strokeColor=none;fillColor=#009688;resizeWidth=1;fontSize=20;fontColor=#FFFFFF;spacingTop=-3;verticalAlign=middle;align=left;spacingLeft=72;" vertex="1" parent="92">
+                    <mxGeometry width="358" height="57" relative="1" as="geometry">
+                        <mxPoint y="24" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="dashed=0;shape=mxgraph.gmdl.preferences;strokeColor=none;fillColor=#00423B;" vertex="1" parent="95">
+                    <mxGeometry y="0.5" width="24" height="16" relative="1" as="geometry">
+                        <mxPoint x="16" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="" style="dashed=0;shape=mxgraph.gmdl.refresh;strokeColor=#00423B;fillColor=#00423B;strokeWidth=2;" vertex="1" parent="95">
+                    <mxGeometry x="1" y="0.5" width="16" height="16" relative="1" as="geometry">
+                        <mxPoint x="-65" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="" style="dashed=0;shape=mxgraph.gmdl.settings;strokeColor=none;fillColor=#00423B;" vertex="1" parent="95">
+                    <mxGeometry x="1" y="0.5" width="5" height="16" relative="1" as="geometry">
+                        <mxPoint x="-24" y="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="" style="dashed=0;shape=rect;strokeColor=none;fillColor=#000000;resizeWidth=1;" vertex="1" parent="92">
+                    <mxGeometry y="1" width="358" height="48" relative="1" as="geometry">
+                        <mxPoint y="-48" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="" style="dashed=0;shape=mxgraph.gmdl.back;strokeColor=#ffffff;fillColor=#000000;strokeWidth=2;" vertex="1" parent="99">
+                    <mxGeometry x="0.25" y="0.5" width="14" height="14" relative="1" as="geometry">
+                        <mxPoint x="-7" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="" style="shape=ellipse;strokeColor=#ffffff;fillColor=#000000;strokeWidth=2;" vertex="1" parent="99">
+                    <mxGeometry x="0.5" y="0.5" width="14" height="14" relative="1" as="geometry">
+                        <mxPoint x="-7" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="" style="shape=rect;strokeColor=#ffffff;fillColor=#000000;strokeWidth=2;" vertex="1" parent="99">
+                    <mxGeometry x="0.75" y="0.5" width="14" height="14" relative="1" as="geometry">
+                        <mxPoint x="-7" y="-7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" value="" style="dashed=0;shape=mxgraph.gmdl.marginRect;rectMargin=12;rectMarginLeft=-12;fillColor=#BDBDBD;strokeColor=none;" vertex="1" parent="92">
+                    <mxGeometry x="10" y="91" width="350" height="239" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Información General" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="92">
+                    <mxGeometry x="10" y="330" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Ecosistema con presencia de montañas y bosques en medio de la zona desértica que predomina en la región, destacan el cerro palúa (860 msnm) y el cerro Jibome (753 msnm)," style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="92">
+                    <mxGeometry x="10" y="360" width="330" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Ubicación" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="92">
+                    <mxGeometry x="11" y="430" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="Departamento de la Guajira, municipio de Uribia en la Región Caribe colombiana al norte del país" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="92">
+                    <mxGeometry x="11" y="460" width="330" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Datos relevantes" style="text;whiteSpace=wrap;fontColor=#000000;verticalAlign=top;align=left;fontSize=15;spacing=16;spacingBottom=0;spacingTop=-12;resizeWidth=1;fontStyle=1" vertex="1" parent="92">
+                    <mxGeometry x="11" y="500" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="La característica más llamativa del Parque es la presencia del bosque enano nublado perennifolio, de apariencia muy similar a los bosques andinos situados cerca de la línea de páramo" style="text;whiteSpace=wrap;spacingLeft=16;spacingRight=16;spacing=0;fontSize=13;fontColor=#000000;spacingBottom=0;spacingTop=-5;resizeWidth=1;" vertex="1" parent="92">
+                    <mxGeometry x="11" y="530" width="330" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="shape=flexArrow;endArrow=classic;html=1;fontColor=#FF3333;strokeWidth=2;entryX=-0.008;entryY=0.204;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=none;gradientDirection=east;gradientColor=#6666FF;" edge="1" parent="1" target="92">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="250" as="sourcePoint"/>
+                        <mxPoint x="600" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

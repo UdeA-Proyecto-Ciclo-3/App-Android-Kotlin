@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GuajirAPP</string>
+    <string name="titulo_poi">"Santuario de Fauna y Flora los Flamencos"</string>
+    <string name="info_general">Información General</string>
+    <string name="descripcion_info_general">Declarado en 1992 Patrimonio Nacional y Cultural de Colombia, el santuario natural es un territorio de ciénagas, lagunas y bosque seco que custodia un delicado ecosistema compuesto de multiplicidad de aves, peces, crustáceos y plantas.  Este pequeño terreno de lagunas costeras regadas por arroyos que es una importante zona de abastecimiento para las aves que le dan su nombre: los flamencos.</string>
+    <string name="ubicacion">Ubicación:</string>
+    <string name="descripcion_ubicacion">Departamento de la Guajira, municipio de Uribia en la Región Caribe colombiana al norte del país, jurisdicción del municipio de Riohacha. El santuario se localiza aproximadamente a 11° 24\' Norte y a 73° 7\' Oeste.</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="descripcion_temperatura">Clima cálido de 27 C. Meses secos: diciembre-abril, julio-agosto; meses lluviosos: mayo y octubre</string>
+    <string name="datos_relevantes">Datos Relevantes:</string>
+    <string name="descripcion_datos_relevantes">El Santuario tiene cuatro ciénagas costeras que cubren 7.682 hectáreas, las cuales conforman una comunidad biológica compuesta principalmente de algas, moluscos, crustáceos y peces. Durante la época de lluvias suben los niveles de las aguas, las ciénagas se comunican con el mar y los camarones peinados migran masivamente para su reproducción. En el Santuario encontramos crustáceos como la jaiba y la Artemia salina, así como una gran variedad de aguas acuáticas residentes y migratorias.  El atractivo fundamental son los Flamencos y sus espectaculares nidos construidos en barro, que alcanzan alturas hasta de 60 cm.; el apareamiento ocurre en Marzo y el empollamiento, según los pescadores de la región, en abril y mayo.</string>
+</resources>
