@@ -38,6 +38,7 @@ class PlaceAdapter( private val context: Context, private val items: ArrayList<P
         Picasso.get().load( item.urlImage ).into( holder.ivPlacePreview )
         holder.tvNamePlace.text = item.name
         holder.tvPlaceDescription.text = item.description
+        holder.tvPlaceTemperature.text = "${item.temperature.toString()} C"
 
     }
 
@@ -52,6 +53,7 @@ class PlaceAdapter( private val context: Context, private val items: ArrayList<P
         val ivPlacePreview: ImageView = view.findViewById( R.id.iv_place_preview )
         val tvNamePlace: TextView = view.findViewById( R.id.tv_name_place )
         val tvPlaceDescription: TextView = view.findViewById( R.id.tv_place_description )
+        val tvPlaceTemperature: TextView = view.findViewById( R.id.tv_place_temperature )
 
     }
 

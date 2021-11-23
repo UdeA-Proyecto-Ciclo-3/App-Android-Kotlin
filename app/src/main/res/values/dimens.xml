@@ -11,9 +11,9 @@
     <dimen name="item_poi_secondary_linear_layout_height">120dp</dimen>
     <dimen name="item_poi_secondary_linear_layout_margin_start">7dp</dimen>
 
-    <dimen name="item_poi_text_size_name_place">20sp</dimen>
-    <dimen name="item_poi_text_size_place_description">12sp</dimen>
-    <dimen name="item_poi_text_size_place_temperature">18sp</dimen>
+    <dimen name="item_poi_text_size_name_place">18sp</dimen>
+    <dimen name="item_poi_text_size_place_description">10sp</dimen>
+    <dimen name="item_poi_text_size_place_temperature">16sp</dimen>
 
     <dimen name="item_poi_main_linear_layout_margin_start">3.5dp</dimen>
     <dimen name="item_poi_main_linear_layout_margin_end">3.5dp</dimen>
