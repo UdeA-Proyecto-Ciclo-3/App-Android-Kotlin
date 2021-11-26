@@ -47,6 +47,18 @@
         "lat": 0.0,
         "lng": 0.0
       }
+    },
+    {
+      "name": "Punta Gallinas",
+      "urlImage": "https://expotur-eco.com/wp-content/uploads/2020/01/Mejor-%C3%A9poca-para-ir-a-Punta-Gallinas-en-la-Guajira.jpg" ,
+      "information": "Es el extremo más septentrional de la placa continental de América del Sur, ubicada al extremo norte de la península de La Guajira, en el departamento homónimo de la República de Colombia, sobre las aguas meridionales del mar Caribe. El cabo se encuentra en el municipio de Uribia a unos 150 kilómetros al noreste de Riohacha.1",
+      "location": "Departamento de la Guajira, municipio de Uribia",
+      "temperature": 28.0,
+      "description": "Se trata de un extremo de tierra que se adentra en dirección noroeste al mar y que cierra un conjunto de accidentes que conforman una bahía de la península que va desde punta Gallinas hasta el cabo de la Vela o Jepirra (en wayúu). Entre ambos puntos están Puerto Bolívar, bahía Portete y bahía Honda.  Cerca a punta Gallinas se encuentra una comunidad de cerca 100 habitantes de la etnia Wayúu, unas de las pocas culturas suramericanas que conservan intactas sus tradiciones ancestrales.",
+      "coordinates": {
+        "lat": 0.0,
+        "lng": 0.0
+      }
     }
   ]
 }
