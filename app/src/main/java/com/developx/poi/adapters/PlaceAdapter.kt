@@ -1,12 +1,15 @@
 package com.developx.poi.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.developx.poi.POIDetailActivity
 import com.developx.poi.R
 import com.developx.poi.models.Place
 import com.squareup.picasso.Picasso
@@ -39,6 +42,13 @@ class PlaceAdapter( private val context: Context, private val items: ArrayList<P
         holder.tvNamePlace.text = item.name
         holder.tvPlaceDescription.text = item.description
         holder.tvPlaceTemperature.text = "${item.temperature.toString()} C"
+        holder.itemView.setOnClickListener {
+
+            val intent = Intent( context, POIDetailActivity::class.java  )
+
+            intent.putExtra( POIDetailActivity.NAME_PLACE, item.name )
+            context.startActivity( intent )
+        }
 
     }
 
