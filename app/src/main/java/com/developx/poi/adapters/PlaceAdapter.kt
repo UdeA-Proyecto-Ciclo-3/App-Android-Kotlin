@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.developx.poi.POIDetailActivity
 import com.developx.poi.R
@@ -47,7 +46,15 @@ class PlaceAdapter( private val context: Context, private val items: ArrayList<P
             val intent = Intent( context, POIDetailActivity::class.java  )
 
             intent.putExtra( POIDetailActivity.NAME_PLACE, item.name )
+            intent.putExtra( POIDetailActivity.PLACE_DESCRIPTION, item.description)
+            intent.putExtra( POIDetailActivity.PLACE_INFORMATION, item.information)
+            intent.putExtra( POIDetailActivity.PLACE_LOCATION, item.location)
+            intent.putExtra( POIDetailActivity.PLACE_TEMPERATURE, item.temperature)
+            intent.putExtra( POIDetailActivity.PLACE_IMAGE_URL,item.urlImage)
+
             context.startActivity( intent )
+
+
         }
 
     }
