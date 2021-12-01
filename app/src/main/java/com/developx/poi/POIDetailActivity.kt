@@ -34,15 +34,15 @@ class POIDetailActivity : AppCompatActivity() {
         var name = bundle?.getString( NAME_PLACE )
         var description = bundle?.getString( PLACE_DESCRIPTION )
         var information = bundle?.getString( PLACE_INFORMATION )
-        var temperature = bundle?.getString( PLACE_TEMPERATURE )
+        var temperature = bundle?.getDouble( PLACE_TEMPERATURE )
         var location = bundle?.getString( PLACE_LOCATION )
         var image_url = bundle?.getString( PLACE_IMAGE_URL )
 
-        Log.d("Paquito ", name.toString())
+        Log.d("Paquito ", temperature.toString())
         tvTitlePlace.text = name
         tvInfoGral.text= information
         tvUbication.text = location
-        tvTemperature.text = temperature
+        tvTemperature.text = temperature.toString()
         tvDescription.text = description
         Picasso.get().load( image_url ).into( ivImagePlace )
     }
