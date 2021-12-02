@@ -9,6 +9,20 @@ Se propone analizar, diseñar y construir una aplicación móvil para dispositiv
 
 Para llevar a cabo este proyecto deberás tener en cuenta una serie de indicaciones, como verás a continuación.
 
+## Sprint 3
+
+### Scrum Team
+
+- **Product Owner:** [Andrés Burbano](https://github.com/Andres-B-Developer) (andrescomfama20@gmail.com)
+- **Scrum Master:** [Juan Carlos Jiménez Gutiérrez](https://github.com/jcarlosj) (jcjimenez29@misena.edu.co)
+
+
+#### Development Team
+- **Developer:**  [Lady Carolina Porras González](https://github.com/ydalk)  (ydalk3@gmail.com)
+- **DBA:** [Miguel Angel Rodriguez Sabogal](https://github.com/CKDark44n) (marodriguez2512@gmail.com)
+- **Analyst:** [David Guerrero Ceballos](https://github.com/EnTusPupilas) (davidguerreroce7@gmail.com)
+
+
 ## Sprint 2
 
 ### Scrum Team
