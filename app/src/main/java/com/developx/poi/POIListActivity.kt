@@ -1,8 +1,13 @@
 package com.developx.poi
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.developx.poi.adapters.PlaceAdapter
@@ -38,6 +43,24 @@ class POIListActivity : AppCompatActivity() {
             e.printStackTrace()
         }
 
+    }
+
+    override fun onCreateOptionsMenu( menu: Menu): Boolean {
+        val inflater: MenuInflater = menuInflater
+        inflater.inflate( R.menu.main_menu, menu )
+        return true
+    }
+
+    override fun onOptionsItemSelected( item: MenuItem): Boolean {
+        // Manejador de opciones del menu principal
+        return when ( item.itemId ) {
+            R.id.item_preferences -> {
+                val intent = Intent(this, PreferencesActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
     /** Método para cargar el JSON desde el archivo de Activos y devolver el objeto */
