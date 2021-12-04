@@ -1,9 +1,7 @@
 package com.developx.poi.models
 
 /** Data Clases: Data Model */
-data class Places (
-    val places: ArrayList<Place>
-)
+class Places: ArrayList<Place>()
 
 data class Place(
     val name: String,
