@@ -14,12 +14,17 @@ import com.developx.poi.adapters.PlaceAdapter
 import com.developx.poi.models.Places
 import com.google.gson.Gson
 import org.json.JSONException
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 import java.io.IOException
 import java.nio.charset.Charset
 
 class POIListActivity : AppCompatActivity() {
 
-    private val tag: String = "POIListActivity"
+    companion object {
+        private val TAG: String = "POIListActivity"
+        private val API_URL: String = "http://192.168.43.187:3000/"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,19 +34,31 @@ class POIListActivity : AppCompatActivity() {
             val jsonString = getJSONFromAssets()!!                              //  Obtiene String JSON del archivo en el directorio assets
             val dataObj = Gson().fromJson( jsonString, Places::class.java )     //  Obtiene Array de usuarios
 
-            Log.d( tag, jsonString )
-            Log.d( tag, dataObj.toString() )
+            Log.d( TAG, jsonString )
+            Log.d( TAG, dataObj.toString() )
 
             val rvPOIList: RecyclerView = findViewById( R.id.rv_poi_list )       //  Obtiene el View del Activity
             rvPOIList.layoutManager = LinearLayoutManager( this )          //  Configura el LayoutManager que utilizará este RecyclerView, pasandole el contexto.
 
-            val itemAdapter = PlaceAdapter( this, dataObj.places )        // Inicializa el Adapter pasa el contexto y la lista con la data
+            val itemAdapter = PlaceAdapter( this, dataObj )        // Inicializa el Adapter pasa el contexto y la lista con la data
             rvPOIList.adapter = itemAdapter                                     // Establece en la vista de reciclaje para inflar los elementos.
 
         } catch ( e: JSONException ) {
             //exception
             e.printStackTrace()
         }
+
+    }
+
+    //Configuración de Retrofit
+    fun getRetrofit(): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl(API_URL)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
+    fun getPlaces(query: String){
 
     }
 
