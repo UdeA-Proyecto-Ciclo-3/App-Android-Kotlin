@@ -41,10 +41,10 @@ class POIDetailActivity : AppCompatActivity() {
         var location = bundle?.getString( PLACE_LOCATION )
         var image_url = bundle?.getString( PLACE_IMAGE_URL )
 
-        var latitude = bundle?.getString( PLACE_LATITUDE )
-        var longitude = bundle?.getString( PLACE_LONGITUDE )
+        var latitude = bundle?.getDouble( PLACE_LATITUDE )
+        var longitude = bundle?.getDouble( PLACE_LONGITUDE )
 
-        Log.d("Paquito ", temperature.toString())
+        /*Log.d("Paquito ", latitude.toString())*/
         tvTitlePlace.text = name
         tvInfoGral.text= information
         tvUbication.text = location
