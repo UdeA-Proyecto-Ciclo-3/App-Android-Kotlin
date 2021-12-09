@@ -19,6 +19,8 @@ class POIMapActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
+
         binding = ActivityPoiMapBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -44,7 +46,7 @@ class POIMapActivity : AppCompatActivity(), OnMapReadyCallback {
         var longitude =  bundle?.getDouble(POIDetailActivity.PLACE_LONGITUDE)
         var name =  bundle?.getString(POIDetailActivity.NAME_PLACE)
         mMap = googleMap
-
+        this.setTitle(name)
 
         val place = LatLng(latitude!!, longitude!!)
         mMap.addMarker(MarkerOptions().position(place).title(name))
