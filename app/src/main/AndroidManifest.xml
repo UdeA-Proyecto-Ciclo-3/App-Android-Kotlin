@@ -32,34 +32,26 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="${API_MAPS}" />
 
-        <activity android:name=".POIMapActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <!--<activity
+        <activity
             android:name=".POIMapActivity"
             android:exported="false"
-            android:label="@string/title_activity_place_map" />-->
+            android:label="@string/title_activity_place_map" />
         <activity
             android:name=".PreferencesActivity"
             android:exported="false" />
         <activity
             android:name=".POIDetailActivity"
             android:exported="false" />
-        <activity
-            android:name=".POIListActivity"
-            android:exported="false" />
 
-        <!--<activity android:name=".POIListActivity">
+
+        <activity android:name=".POIListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
+
+        </activity>
     </application>
 
 </manifest>

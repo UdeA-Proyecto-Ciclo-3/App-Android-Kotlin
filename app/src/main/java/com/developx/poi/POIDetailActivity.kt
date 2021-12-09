@@ -1,5 +1,6 @@
 package com.developx.poi
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -45,5 +46,11 @@ class POIDetailActivity : AppCompatActivity() {
         tvTemperature.text = temperature.toString()
         tvDescription.text = description
         Picasso.get().load( image_url ).into( ivImagePlace )
+
+        val icLocation = findViewById<ImageView>(R.id.iv_location)
+        icLocation.setOnClickListener {
+            val intent = Intent(this,POIMapActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
