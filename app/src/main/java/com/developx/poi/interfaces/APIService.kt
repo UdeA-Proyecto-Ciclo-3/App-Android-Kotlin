@@ -7,5 +7,6 @@ import retrofit2.http.Url
 
 interface APIService {
     @GET
-    fun getPlaces(@Url url:String): Response<ArrayList<Places>>
+    suspend
+    fun getPlaces(@Url url:String): Response<Places>
 }
