@@ -38,11 +38,16 @@ class POIMapActivity : AppCompatActivity(), OnMapReadyCallback {
      * installed Google Play services and returned to the app.
      */
     override fun onMapReady(googleMap: GoogleMap) {
+
+        var bundle = intent.extras
+        var latitude =  bundle?.getDouble(POIDetailActivity.PLACE_LATITUDE)
+        var longitude =  bundle?.getDouble(POIDetailActivity.PLACE_LONGITUDE)
+        var name =  bundle?.getString(POIDetailActivity.NAME_PLACE)
         mMap = googleMap
 
-        // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+
+        val place = LatLng(latitude!!, longitude!!)
+        mMap.addMarker(MarkerOptions().position(place).title(name))
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(place))
     }
 }

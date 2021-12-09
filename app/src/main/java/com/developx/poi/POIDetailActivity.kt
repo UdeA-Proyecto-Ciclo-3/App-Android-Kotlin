@@ -17,6 +17,8 @@ class POIDetailActivity : AppCompatActivity() {
         const val PLACE_TEMPERATURE = "temperature"
         const val PLACE_LOCATION    = "location"
         const val PLACE_IMAGE_URL   = "image_url"
+        const val PLACE_LATITUDE   = "latitude"
+        const val PLACE_LONGITUDE   = "longitude"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,6 +41,9 @@ class POIDetailActivity : AppCompatActivity() {
         var location = bundle?.getString( PLACE_LOCATION )
         var image_url = bundle?.getString( PLACE_IMAGE_URL )
 
+        var latitude = bundle?.getString( PLACE_LATITUDE )
+        var longitude = bundle?.getString( PLACE_LONGITUDE )
+
         Log.d("Paquito ", temperature.toString())
         tvTitlePlace.text = name
         tvInfoGral.text= information
@@ -50,6 +55,9 @@ class POIDetailActivity : AppCompatActivity() {
         val icLocation = findViewById<ImageView>(R.id.iv_location)
         icLocation.setOnClickListener {
             val intent = Intent(this,POIMapActivity::class.java)
+            intent.putExtra(PLACE_LATITUDE, latitude)
+            intent.putExtra(PLACE_LONGITUDE, longitude)
+            intent.putExtra(NAME_PLACE, name)
             startActivity(intent)
         }
     }
