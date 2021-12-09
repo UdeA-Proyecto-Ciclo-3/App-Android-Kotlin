@@ -27,4 +27,5 @@
     <string name="notifications">Activar notificaciones</string>
     <string name="sound_notification">Activar sonido de notificación</string>
     <string name="title_notifications">Preferencias de Notificación</string>
+    <string name="title_activity_place_map">PlaceMapActivity</string>
 </resources>
