@@ -50,6 +50,11 @@ class POIMapActivity : AppCompatActivity(), OnMapReadyCallback {
 
         val place = LatLng(latitude!!, longitude!!)
         mMap.addMarker(MarkerOptions().position(place).title(name))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(place))
+        /*mMap.moveCamera(CameraUpdateFactory.newLatLng(place))*/
+        mMap.animateCamera(
+            CameraUpdateFactory.newLatLngZoom( place, 12f ),
+            5000,
+            null
+        )
     }
 }
