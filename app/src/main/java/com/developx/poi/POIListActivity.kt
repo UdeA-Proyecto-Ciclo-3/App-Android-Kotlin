@@ -28,7 +28,7 @@ class POIListActivity : AppCompatActivity() {
 
     companion object {
         private const val TAG: String = "POIListActivity"
-        private const val API_URL: String = "http://192.168.0.4:3000/"
+        private const val API_URL: String = "http://192.168.100.127:3000/"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

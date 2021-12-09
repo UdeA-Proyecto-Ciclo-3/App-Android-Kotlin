@@ -1,5 +1,6 @@
 package com.developx.poi
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -16,6 +17,8 @@ class POIDetailActivity : AppCompatActivity() {
         const val PLACE_TEMPERATURE = "temperature"
         const val PLACE_LOCATION    = "location"
         const val PLACE_IMAGE_URL   = "image_url"
+        const val PLACE_LATITUDE   = "latitude"
+        const val PLACE_LONGITUDE   = "longitude"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,12 +41,24 @@ class POIDetailActivity : AppCompatActivity() {
         var location = bundle?.getString( PLACE_LOCATION )
         var image_url = bundle?.getString( PLACE_IMAGE_URL )
 
-        Log.d("Paquito ", temperature.toString())
+        var latitude = bundle?.getDouble( PLACE_LATITUDE )
+        var longitude = bundle?.getDouble( PLACE_LONGITUDE )
+
+        /*Log.d("Paquito ", latitude.toString())*/
         tvTitlePlace.text = name
         tvInfoGral.text= information
         tvUbication.text = location
         tvTemperature.text = temperature.toString()
         tvDescription.text = description
         Picasso.get().load( image_url ).into( ivImagePlace )
+
+        val icLocation = findViewById<ImageView>(R.id.iv_location)
+        icLocation.setOnClickListener {
+            val intent = Intent(this,POIMapActivity::class.java)
+            intent.putExtra(PLACE_LATITUDE, latitude)
+            intent.putExtra(PLACE_LONGITUDE, longitude)
+            intent.putExtra(NAME_PLACE, name)
+            startActivity(intent)
+        }
     }
 }

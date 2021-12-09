@@ -16,9 +16,13 @@
     </style>
     <!-- Text Styles-->
     <style name="Texto_titulo">
-        <item name="android:textSize">22dp</item>
-        <item name="android:textColor">@color/aliceblue</item>
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">#F3F3F3</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#323131</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
     </style>
     <style name="Texto_subtitulo">
         <item name="android:textSize">17sp</item>

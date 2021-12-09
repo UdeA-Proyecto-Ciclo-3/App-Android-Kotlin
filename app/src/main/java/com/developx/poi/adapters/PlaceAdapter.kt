@@ -52,6 +52,9 @@ class PlaceAdapter( private val context: Context, private val items: ArrayList<P
             intent.putExtra( POIDetailActivity.PLACE_TEMPERATURE, item.temperature)
             intent.putExtra( POIDetailActivity.PLACE_IMAGE_URL,item.urlImage)
 
+            intent.putExtra( POIDetailActivity.PLACE_LATITUDE,item.coordinates.lat)
+            intent.putExtra( POIDetailActivity.PLACE_LONGITUDE,item.coordinates.lng)
+
             context.startActivity( intent )
 
 
